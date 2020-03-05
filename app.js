@@ -9,7 +9,7 @@ function checkUnique(str) {
     }
     return true // if no duplicates, return true 
 }
-console.log(everyCharUnique('abcd'), 'true');
-console.log(everyCharUnique('abccd'), 'false');
-console.log(everyCharUnique('bhjjb'), 'false');
-console.log(everyCharUnique('mdjq'), 'true');
+console.log(checkUnique('abcd'), 'true');
+console.log(checkUnique('abccd'), 'false');
+console.log(checkUnique('bhjjb'), 'false');
+console.log(checkUnique('mdjq'), 'true');
